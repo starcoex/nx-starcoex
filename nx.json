@@ -35,7 +35,25 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/starcoex-auth-e2e/**/*", "starcoex-jobs-e2e/**/*"]
+      "exclude": ["apps/starcoex-auth-e2e/**/*", "apps/starcoex-jobs-e2e/**/*"]
     }
-  ]
+  ],
+  "targetDefaults": {
+    "build": {
+      "inputs": [
+        "{projectRoot}/**/*",
+        "{workspaceRoot}/lib/**/*",
+        "{workspaceRoot}/proto/*"
+      ],
+      "options": {
+        "assets": [
+          {
+            "glob": "*.proto",
+            "input": "proto",
+            "output": "proto"
+        }
+        ]
+      }
+    }
+  }
 }

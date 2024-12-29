@@ -1,7 +1,7 @@
 {
   "name": "starcoex-jobs",
-  "$schema": "../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "starcoex-jobs/src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/starcoex-jobs/src",
   "projectType": "application",
   "tags": [],
   "targets": {

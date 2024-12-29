@@ -44,7 +44,7 @@
     "generate-prisma": {
       "command": "prisma generate",
       "options": {
-        "cwd": "apps/starcoex-auth",
+        "cwd": "{projectRoot}",
         "input": ["prisma/schema.prisma"]
       },
       "cache": true
@@ -52,7 +52,7 @@
     "migrate-prisma": {
       "command": "prisma migrate dev",
       "options": {
-        "cwd": "apps/starcoex-auth"
+        "cwd": "{projectRoot}"
       }
     },
     "generate-ts-proto": {

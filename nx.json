@@ -35,7 +35,7 @@
       "options": {
         "targetName": "test"
       },
-      "exclude": ["apps/starcoex-auth-e2e/**/*"]
+      "exclude": ["apps/starcoex-auth-e2e/**/*", "starcoex-jobs-e2e/**/*"]
     }
   ]
 }
